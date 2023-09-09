@@ -1,0 +1,97 @@
+.contact-me-box {
+    background: linear-gradient(rgb(0, 99, 99), aqua);
+    padding: 4rem 3rem;
+}
+
+.contact-me-box-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-me-head {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+}
+
+.contact-me-form-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0rem 3rem;
+}
+
+.contact-me-form {
+    padding: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.contact-me-form label {
+    font-size: 1.2rem;
+}
+
+.contact-me-form button {
+    font-size: 1.4rem;
+    padding: 1rem 4rem;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+.contact-me-card-container {
+    padding: 2rem;
+}
+
+.contact-me-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(rgb(252, 250, 250), rgb(70, 70, 70));
+}
+
+.contact-me-card span {
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+
+.contact-me-card:hover {
+    transform: scale(1.01);
+    transition: transform 1.5s;
+}
+
+.contact-me-form button:hover {
+    background-color: rgb(218, 218, 218);
+}
+
+@media screen and (max-width: 1200px) {
+    .contact-me-box {
+        padding: 4rem 1rem;
+    }
+    .contact-me-form-container {
+        padding: 0 2rem;
+    }
+    .contact-me-card span{
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .contact-me-box-div {
+        display: flex;
+        justify-content: center;
+    }
+    .contact-me-head {
+        font-size: 2rem;
+    }
+
+    .contact-me-form label {
+        font-size: 1.1rem;
+    }
+
+    .contact-me-card {
+        display: none;
+    }
+
+    .contact-me-form{
+        padding: 1rem;
+    }
+}

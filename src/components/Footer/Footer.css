@@ -1,0 +1,36 @@
+.container {
+    background-color: var(--black);
+    padding: 2rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-content p{
+    color: white;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+}
+
+.footer-links li {
+    list-style: none;
+}
+
+.footer-links li a {
+    color: white;
+}
+
+.footer-links li a:hover {
+    color: aqua;
+}
+
+.arrow-down:hover {
+    transform: translateY(-5px);
+    transition: transform 1.5s;
+}

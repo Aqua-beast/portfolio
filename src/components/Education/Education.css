@@ -1,0 +1,35 @@
+.education-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2rem;
+    padding-top: 6rem;
+}
+
+.education-item {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 2rem;
+    box-shadow: 5px 2px 5px black;
+    margin: 1.4rem;
+}
+
+.education-item:hover {
+    transform: scale(1.01);
+}
+
+.img-logo {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 960px) {
+    .education-container {
+        padding: 0rem;
+    }
+
+    .education-item {
+        padding: 0.7rem;
+    }
+}
