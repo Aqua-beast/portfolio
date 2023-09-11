@@ -34,7 +34,7 @@ function Navbar() {
                     </ul>
                     </li>
                     <li className='menu-items'><a href="#Projects" onClick={()=>{setActive('Projects')}} style={(active === 'Projects')?{color: 'aqua'}:{}}>Projects<span></span></a></li>
-                    <li className='menu-items'><a href="#" onClick={()=>{setActive('My Blog')}} style={(active === 'My Blog')?{color: 'aqua'}:{}}>My Blog<span></span></a></li>
+                    <li className='menu-items'><a href="#Blogs" onClick={()=>{setActive('My Blog')}} style={(active === 'My Blog')?{color: 'aqua'}:{}}>My Blog<span></span></a></li>
                 </ul>
             </nav>
         </div>

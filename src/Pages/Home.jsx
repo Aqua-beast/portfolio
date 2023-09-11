@@ -7,6 +7,7 @@ import Resume from '../components/Resume/Resume'
 import Projects from '../components/Projects/Projects'
 import ContactMe from '../components/ContactMe/ContactMe'
 import Footer from '../components/Footer/Footer'
+import Blogs from '../components/Blogs/Blogs'
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
       <Experience />
       <Resume />
       <Projects />
+      <Blogs />
       <ContactMe />
       <Footer />
     </div>

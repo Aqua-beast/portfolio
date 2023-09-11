@@ -1,0 +1,53 @@
+.blog-container {
+    background-color: var(--white);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1rem;
+}
+
+.blog-item {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;  
+    background-color: rgb(64, 100, 100);
+    margin: 2rem;
+}
+
+.blog-item:hover {
+    transform: scale(1.01);
+    transition: transform 1s;
+}
+
+.blog-item-photo {
+    padding: 1rem;
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.blog-item-head {
+    color: white;
+    font-size: 1.2rem;
+    padding: 2rem;
+}
+
+.blog-item-desc {
+    padding: 0.5rem;
+}
+
+.blog-item-button {
+    margin-top: 2rem;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+.blog-item-button:hover {
+    color: aqua;
+}

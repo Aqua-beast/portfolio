@@ -135,3 +135,22 @@ export const skill = [
       id: 1,
     }
   ] 
+
+  export const blogs = [
+    {
+      topic: 'Choosing the Right Back-end Framework: A Comprehensive Comparison of Ruby on Rails, Node.js, and Django',
+      description: 'Selecting the right back-end framework is crucial to your web application’s success. This concise 5-minute read will explore three popular options: Ruby on Rails, Node.js, and Django. We’ll highlight their ...',
+      url: 'https://medium.com/@gdscadgitm/choosing-the-right-back-end-framework-a-comprehensive-comparison-of-ruby-on-rails-node-js-95572e9b3199',
+      photo: 'https://miro.medium.com/v2/resize:fit:828/format:webp/1*lVX1s-jOf7SMG-gYBl-UuQ.png',
+      id: 1,
+      alt: 'web dev backend frameworks'
+    },
+    {
+      topic: 'Demystifying Web Scraping',
+      description: 'In today’s digital age, data holds immense value, often referred to as “the new oil.” It has the potential to drive business decisions, uncover market trends, and provide valuable insights. Web scraping, a technique used to ...',
+      url: 'https://medium.com/@gdscadgitm/demystifying-web-scraping-b5ba5c633051',
+      photo: 'https://miro.medium.com/v2/resize:fit:1100/format:webp/1*2cVjG6_ay2O5xHJVgWpAmQ.png',
+      alt: 'web scraping technique',
+      id: 2,
+    }
+  ]
