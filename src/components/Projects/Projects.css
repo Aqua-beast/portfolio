@@ -4,6 +4,11 @@
     padding: 4rem;
 }
 
+.project-head {
+    font-size: var(--h1-font-size);
+    color: black;
+}
+
 .project-items {
     display: flex;
     flex-direction: column;
@@ -62,13 +67,13 @@
 }
 
 .project-item-head {
-    font-size: 1.5rem;
+    font-size: var(--h1-font-size);
     color: white;
     margin-bottom: 2rem;
 }
 
 .project-item-desc{
-    font-size: 1.1rem;
+    font-size: var(--normal-font-size);
     color: white;
 }
 

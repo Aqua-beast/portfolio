@@ -12,8 +12,13 @@
 }
 
 @media screen and (max-width: 960px) {
+    .icon-box {
+        width: 100px;
+        height: 100px;
+        margin: 2.5rem;
+    }
+
     .icon-img {
-        padding: 3rem;
-        margin-left: 2rem; 
+        margin-left: 4rem; 
     }
 }

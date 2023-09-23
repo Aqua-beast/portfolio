@@ -5,6 +5,7 @@ import './Projects.css';
 function Projects() {
     return (
         <div id='Projects' className='project-bg'>
+            <h1 className='project-head'>Projects</h1>
             <div className='project-items'>
                 {projects.map((pro) => (
                     <div key={pro.id} className='project-item'>

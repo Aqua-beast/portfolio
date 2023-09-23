@@ -1,5 +1,5 @@
 .contact-me-box {
-    background: var(--gray);
+    background: var(--green);
     padding: 4rem 3rem;
 }
 
@@ -9,7 +9,7 @@
 }
 
 .contact-me-head {
-    font-size: 2.5rem;
+    font-size: var(--h1--font-size);
     margin-bottom: 1rem;
     margin-left: 2rem;
 }
@@ -27,11 +27,11 @@
 }
 
 .contact-me-form label {
-    font-size: 1.2rem;
+    font-size: var(--h2-font-size);
 }
 
 .contact-me-form button {
-    font-size: 1.4rem;
+    font-size: var(--h1-font-size);
     padding: 1rem 4rem;
     border-radius: 1rem;
     background-color: white;
@@ -51,7 +51,7 @@
 
 .contact-me-card span {
     padding: 2rem;
-    font-size: 1.2rem;
+    font-size: var(--h2-font-size);
 }
 
 .contact-me-card:hover {
@@ -79,13 +79,6 @@
     .contact-me-box-div {
         display: flex;
         justify-content: center;
-    }
-    .contact-me-head {
-        font-size: 2rem;
-    }
-
-    .contact-me-form label {
-        font-size: 1.1rem;
     }
 
     .contact-me-card {

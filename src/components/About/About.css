@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content:center ;
     align-items: center;
-    padding: 2.5rem;
+    padding: 1rem;
     margin: 3rem 0rem;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .head1 {
-    font-size: 3rem;
+    font-size: var(--h1-font-size);
     margin-top: -1.5rem;
     margin-bottom: 2rem;
 }
@@ -42,11 +42,11 @@
 
 .text1 {
     margin-bottom: 1rem;
-    font-size: 1.2rem;
+    font-size: var(--normal-font-size);
 }
 
 .text2 {
-    font-size: 1.2rem;
+    font-size: var(--normal-font-size);
 }
 
 .img {
@@ -78,11 +78,5 @@
     .pic-box {
         width: 30rem;
         padding: 2rem;
-    }
-    .text1{
-        font-size: 1rem;
-    }
-    .text2 {
-        font-size: 1rem;
     }
 }

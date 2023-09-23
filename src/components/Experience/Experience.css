@@ -5,5 +5,12 @@
 
 .carousel-head {
     color: var(--white);
-    font-size: 3rem
+    font-size: var(--h1-font-size);
+}
+
+
+@media screen and (max-width: 970px) {
+    .carousel-box {
+        padding: 1.5rem;
+    }
 }
