@@ -70,7 +70,7 @@ export const skill = [
       percentage: 85,
     },
     {
-      url: "./MongoDB-logo.png",
+      url: "./MongoDB-Logo.png",
       alt: "MongoDB",
       id: 3,
       percentage: 80,

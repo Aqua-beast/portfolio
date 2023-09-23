@@ -42,7 +42,7 @@
 }
 
 .resume-text a:hover {
-    color: aqua;
+    color: pink;
 }
 
 .scroller {
@@ -54,5 +54,11 @@
 @media screen and (max-width: 970px){
     .resume-subbox {
         display: none;
+    }
+    .resume-text {
+        padding: 0.5rem;
+    }
+    .scroller {
+        padding: 0.5rem;
     }
 }
