@@ -11,7 +11,7 @@
     overflow: hidden;
     justify-content: center;
     align-items: center;  
-    background-color: rgb(64, 100, 100);
+    background-color: var(--red);
     margin: 2rem;
 }
 

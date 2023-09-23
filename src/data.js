@@ -10,7 +10,7 @@ export const data = [
         id: 2,
     },
     {
-        url: './MongoDB-logo.png',
+        url: './MongoDB-Logo.png',
         alt: 'MongoDB',
         id: 3,
     },

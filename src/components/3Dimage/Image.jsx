@@ -34,7 +34,7 @@ export default function Image() {
                     />
                 </div>
                 <div className='arrow-box'>
-                    <AiOutlineArrowDown className='arrow' />
+                    <a href="#about"><AiOutlineArrowDown className='arrow' /></a>
                 </div>
             </div>
             <div className='pic'>

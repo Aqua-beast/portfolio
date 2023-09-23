@@ -80,8 +80,8 @@ const ContactMe = () => {
           </div>
         </form>
         <div className='contact-me-card-container'>
-          {details.map((detail) => (
-            <div className='contact-me-card'>
+          {details.map((detail, index) => (
+            <div key={index} className='contact-me-card'>
               <span>Email: {detail.email}</span>
               <span>Phone No.: {detail.phone}</span>
               <span>Address: {detail.address}</span>

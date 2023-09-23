@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 3fr;
     background-color: var(--white);
+    grid-template-areas: "sidebar content"
 }
 
 @keyframes scrollDown {
@@ -20,14 +21,14 @@
     animation: scrollDown 1s forwards;
 }
 
+
 .resume-subbox {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    position: sticky;
-    top: 100px;
     border-right: 2px solid black;
     padding: 3rem;
     margin: 1.5rem;
+    margin-top: 5rem;
 }
 
 .resume-text {
@@ -46,4 +47,13 @@
 
 .scroller {
     padding: 2rem;
+    grid-area: content;
+}
+
+
+@media screen and (max-width: 970px){
+    .resume-subbox {
+        padding: 1rem;
+        margin: 0.5rem;
+    }
 }

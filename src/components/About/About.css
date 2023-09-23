@@ -1,10 +1,10 @@
 .about-contain {
-    background-color: var(--gray);
     display: flex;
     flex-direction: row;
     justify-content:center ;
     align-items: center;
     padding: 2.5rem;
+    margin: 3rem 0rem;
 }
 
 @keyframes scrollDown {

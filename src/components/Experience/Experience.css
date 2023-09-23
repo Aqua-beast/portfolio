@@ -1,5 +1,6 @@
 .carousel-box {
     padding: 4rem;
+    background-color: var(--dark-gray);
 }
 
 .carousel-head {

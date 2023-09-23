@@ -1,4 +1,6 @@
 .content {
+    background-color: var(--gray);
+    margin-top: 4rem;
     display: grid;
     grid-template-columns: 2fr 1fr;
     padding: 3rem;
@@ -6,7 +8,7 @@
 
 .typer {
     margin-top: 2rem; 
-    color: whitesmoke;
+    color: var(--black);
     display: grid;
     grid-template-columns: auto;
 }
@@ -41,7 +43,7 @@
 
 .heading {
     font-size: 2.5rem;
-    color: var(--white);
+    color: var(--black);
     padding: 1rem;
 }
 
@@ -75,12 +77,12 @@
 
 .arrow {
     animation: MoveDown 2s forwards infinite;
-    color: rgb(255, 255, 255);
+    color: var(--black);
     font-size: 2rem;
 }
 
 .arrow:hover {
-    color: aqua;
+    color: pink;
 }
 
 @media screen and (max-width:950px){

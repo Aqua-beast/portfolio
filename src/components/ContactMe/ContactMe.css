@@ -1,5 +1,5 @@
 .contact-me-box {
-    background: linear-gradient(rgb(0, 99, 99), aqua);
+    background: var(--gray);
     padding: 4rem 3rem;
 }
 
@@ -45,7 +45,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: linear-gradient(rgb(252, 250, 250), rgb(70, 70, 70));
+    background: var(--dark-gray);
+    color: white;
 }
 
 .contact-me-card span {

@@ -12,6 +12,7 @@ function Navbar() {
     };
     
     return (
+        <>
         <div id='home' className='bg'>
             <div className={menu ? 'hamburger' : 'cross'}
              onClick={toggleMenu}></div>
@@ -20,10 +21,10 @@ function Navbar() {
                     <span>aryansadh</span>
                 </div>
                 <ul className='menu'>
-                    <li className='menu-items'><a href="#home" onClick={()=>{setActive('Home')}} style={(active === 'Home')?{color: 'aqua'}:{}}>Home<span></span></a></li>
-                    <li className='menu-items'><a href="#about" onClick={()=>{setActive('About')}} style={(active === 'About')?{color: 'aqua'}:{}}>About<span></span></a></li>
-                    <li className='menu-items'><a href="#resume" onClick={()=>{setActive('Resume')}} style={(active === 'Resume')?{color: 'aqua'}:{}}>Resume<span></span></a></li>
-                    <li className='menu-items dropper'><a href="#" onClick={()=>{setActive('Services')}} style={(active === 'Services')?{color: 'aqua'}:{}}>Services<span></span></a>
+                    <li className='menu-items'><a href="#home" onClick={()=>{setActive('Home')}} style={(active === 'Home')?{color: 'pink'}:{}}>Home<span></span></a></li>
+                    <li className='menu-items'><a href="#about" onClick={()=>{setActive('About')}} style={(active === 'About')?{color: 'pink'}:{}}>About<span></span></a></li>
+                    <li className='menu-items'><a href="#resume" onClick={()=>{setActive('Resume')}} style={(active === 'Resume')?{color: 'pink'}:{}}>Resume<span></span></a></li>
+                    <li className='menu-items dropper'><a href="#" onClick={()=>{setActive('Services')}} style={(active === 'Services')?{color: 'pink'}:{}}>Services<span></span></a>
                     <ul className='hidden'>
                         <li className='dropper-items'>
                             Designer
@@ -33,11 +34,12 @@ function Navbar() {
                         </li>
                     </ul>
                     </li>
-                    <li className='menu-items'><a href="#Projects" onClick={()=>{setActive('Projects')}} style={(active === 'Projects')?{color: 'aqua'}:{}}>Projects<span></span></a></li>
-                    <li className='menu-items'><a href="#Blogs" onClick={()=>{setActive('My Blog')}} style={(active === 'My Blog')?{color: 'aqua'}:{}}>My Blog<span></span></a></li>
+                    <li className='menu-items'><a href="#Projects" onClick={()=>{setActive('Projects')}} style={(active === 'Projects')?{color: 'pink'}:{}}>Projects<span></span></a></li>
+                    <li className='menu-items'><a href="#Blogs" onClick={()=>{setActive('My Blog')}} style={(active === 'My Blog')?{color: 'pink'}:{}}>My Blog<span></span></a></li>
                 </ul>
             </nav>
         </div>
+        </>
     )
 }
 
