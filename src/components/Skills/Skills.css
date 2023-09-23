@@ -46,9 +46,9 @@
     width: 95px;
 }
 
-/* @media screen and (max-width: 1024px) {
-    .skill-item {
-        height: 5rem;
-        width: 5rem;
+@media screen and (max-width: 970px) {
+    .skills-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
-} */
+}

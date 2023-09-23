@@ -69,7 +69,6 @@
     .about-contain{
         display: flex;
         flex-direction: column;
-        padding: 2rem;
     }
     .head1 {
         margin-top: -1rem;

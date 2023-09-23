@@ -75,6 +75,10 @@
     }
 }
 
+.arrow-box {
+    padding-bottom: 2rem;
+}
+
 .arrow {
     animation: MoveDown 2s forwards infinite;
     color: var(--black);

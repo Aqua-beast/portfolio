@@ -53,7 +53,6 @@
 
 @media screen and (max-width: 970px){
     .resume-subbox {
-        padding: 1rem;
-        margin: 0.5rem;
+        display: none;
     }
 }

@@ -101,4 +101,13 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    .project-item-link-img {
+        width: 75%;
+        height: 75%;
+    }
+
+    .project-item-desc {
+        padding: 1rem;
+    }
 }
