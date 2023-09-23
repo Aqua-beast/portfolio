@@ -46,7 +46,7 @@
     width: 95px;
 }
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 968px) {
     .skills-list {
         display: grid;
         grid-template-columns: repeat(2, 1fr);

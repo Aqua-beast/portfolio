@@ -9,7 +9,7 @@
 }
 
 .contact-me-head {
-    font-size: var(--h1--font-size);
+    font-size: var(--h1-font-size);
     margin-bottom: 1rem;
     margin-left: 2rem;
 }
@@ -26,8 +26,8 @@
     grid-template-columns: 1fr 2fr;
 }
 
-.contact-me-form label {
-    font-size: var(--h2-font-size);
+.contact-me-subhead {
+    font-size: var(--h3-font-size);
 }
 
 .contact-me-form button {
@@ -59,8 +59,13 @@
     transition: transform 1.5s;
 }
 
+.contact-me-form>button {
+    font-size: var(--h2-font-size);
+}
+
 .contact-me-form button:hover {
-    background-color: rgb(218, 218, 218);
+    background-color: rgb(234, 233, 233);
+    color: pink;
 }
 
 @media screen and (max-width: 1200px) {

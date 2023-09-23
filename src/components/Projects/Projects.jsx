@@ -17,9 +17,9 @@ function Projects() {
                             </video>
                         </div>
                         <div className='project-item-box'>
-                        <h2 className='project-item-head'>{pro.title}</h2>
-                        <p className='project-item-desc'>{pro.desc}</p>
-                        <a className='project-item-button' href={pro.url}>Live View Here</a>
+                            <h2 className='project-item-head'>{pro.title}</h2>
+                            <div className='project-item-desc'>{pro.desc}</div>
+                            <a className='project-item-button' href={pro.url}>Live View Here</a>
                         </div>
                     </div>
                 ))}

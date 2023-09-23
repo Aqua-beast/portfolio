@@ -1,5 +1,4 @@
 .blog{
-    background-color: var(--gray);
     padding: 1rem;
 }
 
@@ -57,5 +56,12 @@
 }
 
 .blog-item-button:hover {
-    color: aqua;
+    color: pink;
+}
+
+@media screen and (max-width: 768px) {
+    .blog-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

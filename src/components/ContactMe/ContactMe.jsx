@@ -34,7 +34,7 @@ const ContactMe = () => {
       <div className='contact-me-box-div'>
         <form className='contact-me-form-container' onSubmit={handleSubmit}>
           <div className='contact-me-form'>
-            <label htmlFor="name">Name:</label>
+            <label className='contact-me-subhead' htmlFor="name">Name:</label>
             <input
               type="text"
               id="name"
@@ -45,7 +45,7 @@ const ContactMe = () => {
             />
           </div>
           <div className='contact-me-form'>
-            <label htmlFor="email">Email:</label>
+            <label className='contact-me-subhead' htmlFor="email">Email:</label>
             <input
               type="email"
               id="email"
@@ -56,7 +56,7 @@ const ContactMe = () => {
             />
           </div>
           <div className='contact-me-form'>
-            <label htmlFor="subject">Subject:</label>
+            <label className='contact-me-subhead' htmlFor="subject">Subject:</label>
             <textarea
               id="subject"
               name="subject"
@@ -66,7 +66,7 @@ const ContactMe = () => {
             />
           </div>
           <div className='contact-me-form'>
-            <label htmlFor="message">Message:</label>
+            <label className='contact-me-subhead' htmlFor="message">Message:</label>
             <textarea
               id="message"
               name="message"

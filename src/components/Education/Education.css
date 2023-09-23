@@ -4,6 +4,19 @@
     justify-content: flex-start;
     padding: 2rem;
     padding-top: 6rem;
+    margin: 2rem;
+}
+
+.education-head {
+    font-size: var(--h1-font-size);
+}
+
+.education-subhead {
+    font-size: var(--h3-font-size);
+}
+
+.education-text {
+    font-size: var(--normal-font-size);
 }
 
 .education-item {
@@ -24,12 +37,18 @@
     object-fit: contain;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 968px) {
     .education-container {
         padding: 0rem;
     }
 
     .education-item {
-        padding: 0.7rem;
+        padding: 0.5rem;
+    }
+
+    .img-logo {
+        width: 100px;
+        height: 100px;
+        margin-right: 10px;
     }
 }

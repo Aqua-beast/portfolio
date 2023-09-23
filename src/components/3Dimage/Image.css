@@ -89,7 +89,7 @@
     color: pink;
 }
 
-@media screen and (max-width:950px){
+@media screen and (max-width:968px){
     .content {
         display:flex;
         flex-direction: column;

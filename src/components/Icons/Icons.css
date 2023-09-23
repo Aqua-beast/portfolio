@@ -11,7 +11,7 @@
     background-color: var(--gray);
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 968px) {
     .icon-box {
         width: 100px;
         height: 100px;
