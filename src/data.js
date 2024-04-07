@@ -117,7 +117,7 @@ export const skill = [
       id: 1,
     },
     {
-      url: 'https://aqua-beast.github.io/mindspace-react/',
+      url: 'https://mindspace-react.vercel.app/',
       desc: 'Mindspace is a cutting-edge mental health app designed to help individuals improve their overall well-being and cope with the challenges of everyday life. With the rise of stress, anxiety, and other mental health issues, it is here to provide users with accessible and effective tools to manage their emotions, thoughts, and behaviors. ',
       img: './logos/proj-1.png',
       title: 'MindSpace',
@@ -152,5 +152,13 @@ export const skill = [
       photo: 'https://miro.medium.com/v2/resize:fit:1100/format:webp/1*2cVjG6_ay2O5xHJVgWpAmQ.png',
       alt: 'web scraping technique',
       id: 2,
+    },
+    {
+      topic: '',
+      description: 'Aptitude Series: Part 2 - Allegations and Mixtures. Welcome back to our Aptitude Series, where we will test your brain using problem-solving and logical reasoning to discover your hidden IQ. ✨',
+      url: 'https://www.instagram.com/p/C4DwKWYS-uI/?img_index=1',
+      photo: './logos/mixture.png',
+      alt: '',
+      id: 3
     }
   ]

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './ContactMe.css'
-import { details } from '../../data'
 
 const ContactMe = () => {
   const [formData, setFormData] = useState({
@@ -79,14 +78,8 @@ const ContactMe = () => {
             <button type="submit">Submit</button>
           </div>
         </form>
-        <div className='contact-me-card-container'>
-          {details.map((detail, index) => (
-            <div key={index} className='contact-me-card'>
-              <span>Email: {detail.email}</span>
-              <span>Phone No.: {detail.phone}</span>
-              <span>Address: {detail.address}</span>
-            </div>
-          ))}
+        <div className='contact-me-card'>
+          <img src="https://assets-v2.lottiefiles.com/a/bb5d604e-1182-11ee-8df9-6f8439a0ba51/Sb5ssYXU8M.gif" alt="astronaut" />
         </div>
       </div>
     </div>

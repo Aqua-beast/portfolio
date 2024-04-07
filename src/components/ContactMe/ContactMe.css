@@ -1,11 +1,16 @@
 .contact-me-box {
-    background: var(--green);
+    background: url('https://files.123freevectors.com/wp-content/original/142195-blue-and-white-simple-background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
     padding: 4rem 3rem;
 }
 
 .contact-me-box-div {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .contact-me-head {
@@ -42,16 +47,14 @@
 }
 
 .contact-me-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background: var(--dark-gray);
-    color: white;
+    height: 30rem;
+    width: auto;
 }
 
-.contact-me-card span {
-    padding: 2rem;
-    font-size: var(--h2-font-size);
+.contact-me-card img{
+    height: 80%;
+    width: auto;
+    border-radius: 5px;
 }
 
 .contact-me-card:hover {
@@ -78,19 +81,23 @@
     .contact-me-card span{
         padding: 1rem;
     }
-}
-
-@media screen and (max-width: 770px) {
     .contact-me-box-div {
         display: flex;
         justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
+}
 
-    .contact-me-card {
-        display: none;
+/* @media screen and (min-width: 770px) {
+    .contact-me-box-div {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
 
     .contact-me-form{
         padding: 1rem;
     }
-}
+} */

@@ -1,0 +1,21 @@
+.resume-download {
+    height: 30px;
+    width: auto;
+    position: fixed;
+    bottom: 5rem;
+    right: 2rem;
+    color: rgb(233, 233, 233);
+    z-index: 2;
+    background-color: rgb(53, 52, 52);
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.resume-download:hover {
+    color: rgb(53, 52, 52);
+    background-color: rgb(233, 233, 233);
+}

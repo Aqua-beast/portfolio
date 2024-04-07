@@ -8,10 +8,12 @@ import Projects from '../components/Projects/Projects'
 import ContactMe from '../components/ContactMe/ContactMe'
 import Footer from '../components/Footer/Footer'
 import Blogs from '../components/Blogs/Blogs'
+import ResumeDownload from '../components/ResumeDownload/ResumeDownload'
 
 function Home() {
   return (
     <div>
+      <ResumeDownload />
       <Navbar />
       <Image />
       <About />
